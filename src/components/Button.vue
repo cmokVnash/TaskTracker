@@ -1,5 +1,5 @@
 <template>
-    <button v-on:click = "onClick()" class="btn" :style="{background:color}">{{text}}</button>
+    <button v-on:click = "onClick" class="btn" :style="{background:color}">{{text}}</button>
 </template>
 
 <script>
